@@ -1,0 +1,40 @@
+body, h1, p, blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(234, 174, 205, 0.68);
+  color: rgba(186, 112, 153, 0.68);
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 28px;
+}
+
+p {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 18px;
+}
+
+blockquote {
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(227, 179, 163, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(11, 11, 11, 0.1);
+  font-style: italic;
+  color: rgba(199, 164, 218, 0.68);
+}
+
+cite {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  font-style: normal;
+  color: rgba(197, 152, 172, 0.68);
+}
